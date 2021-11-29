@@ -1,7 +1,12 @@
-import React from 'react';
+import React from 'react'
+import Searchbar from './Searchbar'
 
 const App = () => {
-  return <div>App</div>;
-};
+  return (
+    <div className="ui container" style={{ marginTop: '10px' }}>
+      <Searchbar />
+    </div>
+  )
+}
 
-export default App;
+export default App
